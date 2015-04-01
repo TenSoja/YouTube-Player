@@ -37,7 +37,7 @@ public class StandAloneActivity extends Activity implements View.OnClickListener
 				intent = YouTubeStandalonePlayer.createVideoIntent(this, GOOGLE_API_KEY, YOUTUBE_PLAYLIST_ID);
 			}
 			if(intent != null) {
-				startActivityForResult(intent, 0);
+				startActivity(intent);
 			}
 		}
 		
