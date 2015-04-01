@@ -13,7 +13,7 @@ public class StandAloneActivity extends Activity implements View.OnClickListener
 		public static final String GOOGLE_API_KEY = "AIzaSyAiXIv5rtvRyiNkdNOg1zyX2pqDsVWbpEc";
 		
 		public static final String YOUTUBE_VIDEO_ID = "KMYDYYQmqgA";
-		public static final String YOUTUBE_PLAYLIST_ID = "";
+		public static final String YOUTUBE_PLAYLIST_ID = "PLJYebCJrTR73Qy8f4EdbrFVnnlXsxcOX5";
 		
 		private Button btnPlay;
 		private Button btnPlaylist;
@@ -22,7 +22,7 @@ public class StandAloneActivity extends Activity implements View.OnClickListener
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.standalone);
 			
-			btnPlay = (Button) findViewById(R.id.btnPlay);
+			btnPlay = (Button) findViewById(R.id.btnStart);
 			btnPlaylist = (Button) findViewById(R.id.btnPlaylist);
 			
 			btnPlay.setOnClickListener(this);
